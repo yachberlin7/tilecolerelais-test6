@@ -1,0 +1,15 @@
+
+
+{% block title %}Bienvenue au menu général{% endblock %}
+
+{% block body %}
+<section class="collapse navbar-collapse">
+<ul class="navbar-nav me-auto">
+ <li class="nav-item"><a class="nav-link active" href="/enfant/create"><button type="button" class="btn btn-outline-primary">Create</button></a></li>
+ <li class="nav-item"><a class="nav-link active" href="/enfant/create/{id}/edit"><button type="button" class="btn btn-outline-secondary">Modify</button></a></li>
+ <li class="nav-item"><a class="nav-link active" href="/enfant/create"><button type="button" class="btn btn-outline-success">Delete</button></a></li>
+</ul>
+</section>
+  
+    
+{% endblock %}
